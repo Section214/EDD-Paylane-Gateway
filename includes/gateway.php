@@ -204,7 +204,7 @@ function edd_paylane_process_payment( $purchase_data ) {
         edd_send_back_to_checkout( '?payment-mode=' . $purchase_data['post_data']['edd-gateway'] );
     }
 }
-add_action( 'edd_gateway_simplify', 'edd_paylane_process_payment' );
+add_action( 'edd_gateway_paylane', 'edd_paylane_process_payment' );
 
 
 /**

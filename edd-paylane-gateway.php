@@ -3,7 +3,7 @@
  * Plugin Name:     Easy Digital Downloads - PayLane Gateway
  * Plugin URI:      https://wordpress.org/plugin/edd-paylane-gateway
  * Description:     Adds a payment gateway for PayLane to Easy Digital Downloads
- * Version:         1.0.1
+ * Version:         1.0.2
  * Author:          Daniel J Griffiths
  * Author URI:      https://section214.com
  * Text Domain:     edd-paylane-gateway
@@ -66,7 +66,7 @@ if( ! class_exists( 'EDD_PayLane_Gateway' ) ) {
          */
         private function setup_constants() {
             // Plugin version
-            define( 'EDD_PAYLANE_VER', '1.0.1' );
+            define( 'EDD_PAYLANE_VER', '1.0.2' );
 
             // Plugin path
             define( 'EDD_PAYLANE_DIR', plugin_dir_path( __FILE__ ) );
