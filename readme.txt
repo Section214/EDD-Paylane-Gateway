@@ -3,7 +3,7 @@ Contributors: section214
 Tags: Easy Digital Downloads, EDD, gateway, PayLane
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Adds a payment gateway for PayLane to Easy Digital Downloads
 
@@ -26,6 +26,9 @@ Once installed, go to Downloads > Settings > Payment Gateways and enter your acc
 None yet
 
 == Changelog ==
+
+= Version 1.0.2 =
+* Fixed submission bug
 
 = Version 1.0.1 =
 * Codebase overhaul and open sourced!
